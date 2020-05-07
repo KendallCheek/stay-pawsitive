@@ -1,5 +1,5 @@
 /*Drop table statements and create table statements for each table, including variables, primary keys, not null attributes, and value initialization*/drop table "APP".CUSTOMER;
-
+drop table "APP".CUSTOMER;
 create table "APP".CUSTOMER
 (
 	CUSTOMERID INTEGER not null GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1) PRIMARY KEY,
