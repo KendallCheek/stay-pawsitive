@@ -43,6 +43,7 @@
                                     </tr>
                                     <tr>
                                       <td>Size: 16oz</td>
+                                      <td> </td>
                                     </tr>
                                 </tbody>
                             </table>
