@@ -250,8 +250,10 @@
                     <br class="clear" />
                 </form>
             </main>
+            <br>
+            <br>
         </div>
-        <jsp:include page="includes/footer.html" />
+      <jsp:include page="includes/footer.html" />
     </div>
 </body>
 

@@ -48,7 +48,8 @@ header img, header nav {
     border-bottom: 4px solid #93e5ab;
     background-color: #f8fafa;
     padding: 20px 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 main img {
@@ -165,7 +166,7 @@ footer {
     border-radius: 3px;
     border-top: 4px solid #93e5ab;
     background-color: #f8fafa;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #page-container {

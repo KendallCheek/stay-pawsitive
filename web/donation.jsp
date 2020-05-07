@@ -20,12 +20,14 @@
                 <main>
                     <h1>Donate</h1>
                     <img src="images/donation.png" alt="Every gift saves lives" id="cover-photo" >
-                    <h2>Every Gift Saves Lives!</h2>
-                    <p>Since 2020 we have worked with animal lovers like you to protect animals from disasters on a national
-                        scale. Stay Pawsitive has helped save thousands of animals in crisis, and you can help too! Your
-                        tax-deductible donation will help us dedicate more time and resources to animals in disaster
-                        situations. Your generous gift can change the life of an animal in need. </p>
-                    <p>Start your monthly donation or make a one-time gift today.</p>
+                    <div class="text-section">
+                      <h2>Every Gift Saves Lives!</h2>
+                      <p>Since 2020 we have worked with animal lovers like you to protect animals from disasters on a national
+                          scale. Stay Pawsitive has helped save thousands of animals in crisis, and you can help too! Your
+                          tax-deductible donation will help us dedicate more time and resources to animals in disaster
+                          situations. Your generous gift can change the life of an animal in need. </p>
+                      <p>Start your monthly donation or make a one-time gift today.</p>
+                    </div>
                     <form action="DonationServer.jsp" method="POST">
                         <input type="hidden" name="donationAmount" id="donationAmount" value="0" />
 
@@ -96,11 +98,9 @@
                         </div>
                         <br class="clear" />
                     </form>
-
-
-
-
                 </main>
+                <br>
+                <br>
             </div>
             <jsp:include page="includes/footer.html" />
         </div>
